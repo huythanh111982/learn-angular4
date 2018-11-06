@@ -6,6 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./hello-world.component.css']
 })
 export class HelloWorldComponent implements OnInit {
+  public name:string ="Angular 4";
 
   constructor() { }
 
