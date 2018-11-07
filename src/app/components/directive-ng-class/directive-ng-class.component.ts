@@ -8,7 +8,6 @@ import { Component, OnInit } from '@angular/core';
 export class DirectiveNgClassComponent implements OnInit {
   public isClass:boolean =true;
   constructor() { }
-
   ngOnInit() {
   }
   onClick(){
