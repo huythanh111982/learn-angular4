@@ -1,0 +1,9 @@
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <!-- <h4 [ngClass]="['pad-30','cl-orange','border-blue']">Welcome to learn Angular 4</h4> -->
+            <h4 [ngClass]="{'cl-orange':isClass,'border-blue':isClass}">Welcome to learn Angular 4</h4>
+            <button type="button" class="btn btn-default" (click)="onClick()">Add/Remove Class</button>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,13 @@
+<div class="container">
+
+    <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <!-- <h3 [ngStyle]="{'color': 'red','background': 'orange'}">How to use directive ngStyle</h3> -->
+            <h3 [ngStyle]="isHighlight? currentStyle: ''">How to use directive ngStyle</h3>
+
+            <button type="button" class="btn btn-danger" (click)="onClick()">Toggle Style</button>
+
+        </div>
+    </div>
+
+</div>
